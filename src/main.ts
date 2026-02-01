@@ -31,7 +31,7 @@ async function bootstrap() {
       'https://nirvanah-one.vercel.app',
       'https://nirvarnah.com'
     ],
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     credentials: true
   });
   await app.listen(process.env.PORT ?? 3000);
